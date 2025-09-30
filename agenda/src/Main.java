@@ -17,6 +17,6 @@ public class Main {
         System.out.print("Choose from 1-4: ");
         int choice = scanner.nextInt();
 
-        System.out.print("Please wait a moment...");
+        System.out.print("Option " + choice + " chosen. Please wait a moment...");
     }
 }
