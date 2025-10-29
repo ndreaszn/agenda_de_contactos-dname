@@ -17,6 +17,22 @@ public class Main {
         System.out.print("Choose from 1-4: ");
         int choice = scanner.nextInt();
 
-        System.out.print("Option " + choice + " chosen. Please wait a moment...");
+        switch (choice) {
+            case 1:
+                System.out.println("Option " + choice + " chosen. Please wait a moment...");
+                System.out.println("Welcome to the contact addition center!");
+                break;
+            case 2:
+                System.out.println("Option " + choice + " chosen. Please wait a moment...");
+                System.out.println("Welcome to the contact list!");
+                break;
+            case 3:
+                System.out.println("Option " + choice + " chosen. Please wait a moment...");
+                System.out.println("Welcome to the contact search center!");
+                break;
+            case 4:
+                System.out.println("Option " + choice + " chosen. Exiting program...");
+                break;
+        }
     }
 }
